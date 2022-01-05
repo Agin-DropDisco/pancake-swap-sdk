@@ -81,5 +81,13 @@ export const WETH = {
     'WBNB',
     'Wrapped BNB',
     'https://www.binance.org'
+  ),
+  [ChainId.KOVAN]: new Token(
+    ChainId.KOVAN,
+    '0xd0A1E359811322d97991E03f863a0C30C2cF029C',
+    18,
+    'WETH',
+    'Wrapped Ether',
+    'https://www.binance.org'
   )
 }
